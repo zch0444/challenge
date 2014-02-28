@@ -3,7 +3,7 @@ N: the desired # of products
 n: the total # of products
 money: desired dollar amount
 data: JSON objects of products sorted by price
-      the data is in inputfile.txt, which is got from http://api.zappos.com/Search?term=boots&sort={"price":"asc"}&limit=100&page=80&callback=&key=b05dcd698e5ca2eab4a0cd1eee4117e7db2a10c4
+      the data is in inputfile.txt, which is got from http://api.zappos.com/Search?term=boots&sort={"price":"asc"}&limit=100&page=80&callback=&key=YOUR_API_KEY
 
 algorithm:
 First get the upper bound using greedy algorithm. If the upper bound is less than desired dollar amount 
