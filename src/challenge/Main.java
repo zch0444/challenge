@@ -8,12 +8,14 @@ public class Main {
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		int n = 100, k = 0, N = 10, sum = 0, target;
-		double money = 29.99;
+		double money = 129.99;
 		target = (int) (money * 100);
 		Data mydata = new Data();
 		int current[] = new int[N];
 		int ans[] = new int[N];
 		int price[] = new int[n];
+		if (N > n || N <= 0)
+			return;
 		for (int i = 0; i < N; i++)
 			current[i] = -1;
 		JSONArray data[] = new JSONArray[MAX_JSONARRAY];
